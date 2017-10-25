@@ -1,0 +1,34 @@
+{
+
+  "translation" : {
+
+    "0"    : "Publish",
+    "1"    : "Donate",
+    "2"    : "Preferences",
+    "3"    : "Tags",
+    "4"    : "Payout address",
+    "5"    : "Search tags",
+    "6"    : "Show bought samples/loops",
+    "7"    : "Show my samples/loops",
+    "8"    : "Show tags",
+    "9"    : "Next results",
+    "10"   : "Previous results",
+    "11"   : "Close",
+    "12"   : "Show/Hide sidebar",
+    "13"   : "Bypassed Authentication",
+    "14"   : "An error occurred",
+    "15"   : "Logged in as",
+    "16"   : "Type tag name here, seperate with comma",
+    "17"   : "Open the menu",
+    "18"   : "Donate to the developer",
+    "19"   : "Identity",
+    "20"   : "Edit",
+    "21"   : "Delete",
+    "22"   : "Help",
+    "23"   : "Select Wallet",
+    "24"   : "Show latest"
+
+
+  }
+
+}

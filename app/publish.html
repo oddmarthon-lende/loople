@@ -1,0 +1,47 @@
+<div id="publish" class="page">
+
+  <h4>Publish</h4>
+
+  <div class="container-fluid">
+    <div class="container left">
+
+      <input class="form-control" maxlength="32" name="title" value="{{title}}" ondblclick="viewController.pages.publish.generateTitle()" placeholder="Title" id="s_title" ></input>
+      <br />
+      <input class="form-control" type="number" name="title" value="{{bpm}}" placeholder="BPM" id="s_bpm"></input>
+      <br />
+      <select class="form-control" name="category" value="{{category}}"  id="s_category">
+        {{#categories}}
+          <option value="{{id}}">{{name}}</option>
+        {{/categories}}
+      </select>
+      <br />
+      <select class="form-control" name="mainAudioFile" value="{{audio}}" id="s_main_audio">
+        {{#files}}
+          <option value="{{name}}">{{name}}</option>
+        {{/files}}
+      </select>
+      <br />
+      <div>
+        <input class="form-control" type="text" name="tags" placeholder="Tags" id="i_tags"></input>
+        <div class="tags" id="s_tags" style="position:relative; left: 7px; top: -27px; display: inline-block;">
+          <span class="tag">bass</span>
+          <span class="tag">funky</span>
+          <span class="tag">ass</span>
+          <span class="tag">bitch</span>
+        </div>
+      </div>
+      <br />
+
+    </div>
+
+    <div class="container right">
+      <div class="filedrop" id="s_dir">
+        {{#files}}
+          <div class="fileentry">{{name}}</div>
+        {{/files}}
+      </div>
+    </div>
+
+  </div>
+
+</div>

@@ -1,8 +1,8 @@
-var ConvertLib = artifacts.require("./ConvertLib.sol");
-var MetaCoin = artifacts.require("./MetaCoin.sol");
+var LinkedList = artifacts.require("./LinkedList.sol");
+var Loople = artifacts.require("./Loople.sol");
 
 module.exports = function(deployer) {
-  deployer.deploy(ConvertLib);
-  deployer.link(ConvertLib, MetaCoin);
-  deployer.deploy(MetaCoin);
+  deployer.deploy(LinkedList);
+  deployer.link(LinkedList, Loople);
+  deployer.deploy(Loople);
 };

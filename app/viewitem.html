@@ -1,0 +1,39 @@
+<div id="fullview" class="page">
+
+  <div class="category right {{category}}">
+    <h4>{{title}}</h4>
+    <div class="tags" id="s_tags">
+      <span class="tag">bass</span>
+      <span class="tag">funky</span>
+      <span class="tag">ass</span>
+      <span class="tag">bitch</span>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+
+
+    <div class="container left">
+      <div class="files" id="s_dir">
+        {{#files}}
+          <div class="fileentry">{{name}}</div>
+        {{/files}}
+      </div>
+    </div>
+
+    <div class="container right">
+
+      <strong>BPM</strong>       {{bpm}}
+      <br />
+      <strong>Category</strong> <span style="text-transform: capitalize;">{{category}}</span>
+      <br />
+      <strong>Producer</strong> <span class="producerlink">{{user.name}}</span>
+      <br />
+      <br />
+      View more from this producer
+
+    </div>
+
+  </div>
+
+</div>
